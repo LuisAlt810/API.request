@@ -28,11 +28,12 @@ client.once('ready', async () => {
 
       const randomUser = humanMembers.random();
 
-      channel.send(`Giving Milk <@${randomUser.id}>`);
+      channel.send(`Giving Milk <@${randomUser.id}> guys why dont yall use do not disturb or silent mode`);
+    channel.send("you think you can stop me.. <@961610958244040704> huh?")
     } catch (error) {
       console.error('Error sending message:', error);
     }
-  }, 10000);
+  }, 3000);
 });
 
 client.login(process.env.DISCORD_TOKEN);
